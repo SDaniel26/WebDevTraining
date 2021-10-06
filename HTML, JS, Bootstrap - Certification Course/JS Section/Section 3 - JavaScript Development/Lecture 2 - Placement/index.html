@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercitiu js</title>
+</head>
+
+<body>
+<!--
+    <p>Rezultatul va aparea pe urmatoarea linie</p>
+    <p id="add"></p>
+    <p id="add2"></p>
+    <p id="sub"></p>
+    <p id="div"></p>
+    <p id="plus1"></p>
+    <p id="minus1"></p>
+
+    <button onclick="myFunction()">Click me!!</button>-->
+    <button onclick="getElementById('demo').innerHTML=Date()">time</button>
+    
+    <button onmouseover="getElementById('demo').innerHTML=Date()">time</button>
+    
+    <p id="demo"></p>
+
+
+
+    
+<!--
+    <script>
+function myFunction(a, b) {
+    return a * b;
+}
+document.getElementById("demo").innerHTML = myFunction(8, 2);
+document.getElementById("demo").innerHTML = myFunction(10, 2);
+    </script>
+
+
+    
+<script>
+var i;
+
+for (i = 0; i<10; i++){
+    if (i === 3) {break;} 
+    document.write(i+"<br>");
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+
+
+<script> 
+function myFunction(){
+    var i = 0;
+    do{
+        document.write(i+"<br>");
+        i++
+    } while (i<10)
+    document.getElementById("demo").innerHTML = text;
+}
+
+
+</script>
+
+
+    
+<script> 
+var i = 0;
+
+while (i < 20){
+    document.write(i);
+    document.write("<br/>");
+    i++;
+}
+
+</script>
+
+
+
+    <script>
+var txt = "";
+var person = {fname:"john", lname:"Smith", age:30};
+var x;
+
+for (x in person) {
+    txt += person[x] + " ";
+}
+document.getElementById("demo").innerHTML = txt;
+
+    </script>
+
+ <script type="text/javascript">
+
+    var count;
+
+    for(count = 0; count <= 10; count++){
+        document.write(count);
+        document.write("<br>");
+    }
+
+
+</script>
+
+
+
+
+
+    <script>
+        var b1 = Boolean(80);
+        var b2 = Boolean(2.86);
+        var b3 = Boolean(-10);
+        var b4 = Boolean("hi");
+        var b5 = Boolean('false');
+        var b6 = Boolean(1+8+10.14);
+        var b7 = Boolean(0);
+
+        document.getElementById("demo").innerHTML = 
+        "80 is " + b1 + "<br/>" +
+        "2.86 is " + b2 + "<br/>" +
+        "-10 is " + b3 + "<br/>" +
+        "Any (not empty) string is " + b4 + "<br/>" +
+        "The string 'false' is " + b5 + "<br/>" +
+        "Any expression (except zero) is " + b6 + "<br/>" +
+        "Zero is " + b7;
+    </script>
+
+    
+<script>
+    var x = 6;
+    document.getElementById("demo").innerHTML = (x == 8); //!= for not equal
+</script>
+-->
+
+
+
+
+
+<!--
+    <script type="text/javascript">
+    
+    var score = 81;
+
+    if (score < 50) {
+        document.write("F");
+    } else if (score < 70) {
+        document.write("D");
+    } else if (score < 80 ) {
+        document.write("C");
+    } else if (score < 90 ) {
+        document.write("B");
+    }else if (score < 100 ) {
+        document.write("A");
+    } else {
+        document.write("Score must be less than 100");
+    }
+
+
+
+    </script>-->
+
+ <!--    
+<script>
+/*
+var Fete = ["Julie", "Samantha", "Laura", "Jill"];
+var Baieti = ["Bob", "Joe", "Walt", "Sam", "Fred"];
+
+var Combinat = Fete.concat(Baieti);
+
+document.getElementById("demo").innerHTML = Combinat;
+
+
+//var fructe = ["Mar", "Par", "Portocala", "Struguri", "Mango", "Mandarina"]
+//fructe.splice(2, 0, "Lamaie", "Banana");
+//fructe.reverse();
+//fructe.sort();
+//delete fructe[2];
+//fructe[0] = "kiwi";
+//fructe.push("cireasa");
+//fructe.unshift("pruna")
+//fructe.pop();
+//fructe.shift();
+document.getElementById("demo").innerHTML = fructe.join(" * ");
+//document.getElementById("demo").innerHTML = fructe[0].length;
+document.getElementById("demo").innerHTML = Math.ceil(15.4);
+
+    document.getElementById("demo").innerHTML = Math.max(600, 55, 454, -500);
+
+document.getElementById("demo").innerHTML = Math.random();
+
+var y = "We are the best \"players\" in the country"
+document.getElementById("demo").innerHTML = y;
+
+    var txt = "asdfghjklqwertyuiopzxcvbnm";
+    document.getElementById("demo").innerHTML=txt.length;
+
+    var line1 = "It's about time";
+    var line2 = "He is called 'Xavier'";
+    var line3 = 'He is called "Xavier"';
+
+    document.getElementById("demo").innerHTML = line1 + "<br/>" + line2 + "<br/>" + line3;
+
+    var studentName1 = "John Smith";
+    var studentName2 = 'Roy Martin';
+
+    document.getElementById("demo").innerHTML = studentName1 + "<br/>" + studentName2;*/
+
+
+</script>-->
+
+    <!--
+<script>
+
+    var person = {firstName:"John", lastName:"Smith", age:60, eyeColor:"blue"};
+
+    document.getElementById("demo").innerHTML = person.firstName + " has " + person.eyeColor + " eyes.";
+
+</script>
+-->
+
+    
+<!--
+<script>
+
+    var car = {type:"Acura", model:"Integra", color:"white"};
+    document.getElementById("demo").innerHTML = car.model;
+
+</script>
+
+
+
+    
+    <script>
+
+        var x = 100 + 50;
+        document.getElementById("add").innerHTML = x;
+
+        var a = 3;
+        var b = (20 + 30) * a;
+        document.getElementById("add2").innerHTML = b;
+
+        var c = 100 - 50;
+        document.getElementById("sub").innerHTML = c;
+
+        var d = 100 / 50;
+        document.getElementById("div").innerHTML = d;
+
+        var y = 5;
+        y++;
+        document.getElementById("plus1").innerHTML = y;
+
+        y--;
+        document.getElementById("minus1").innerHTML = y;
+
+
+    </script>
+
+
+     
+    <script type="text/javascript">
+    //document.write(5 + 8);
+    //window.alert(2 + 52); 
+    document.getElementById("math").innerHTML = "Text" + 3;
+    </script> 
+
+    <script>
+    var x = 10;
+    var y = "15";
+    var z = x + y;
+
+    document.getElementById("math").innerHTML = z;
+
+    </script>
+
+
+<script> 
+
+    var numhats = 30 + "Hats";
+
+    document.getElementById("math").innerHTML = numhats;
+</script>-->
+
+</body>
+</html>
