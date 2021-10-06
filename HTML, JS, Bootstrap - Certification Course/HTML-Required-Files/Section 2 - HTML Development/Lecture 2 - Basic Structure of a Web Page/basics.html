@@ -1,0 +1,97 @@
+<!DOCTYPE html><!-- arata tipul documentului -->
+<html> <!-- intre aceste taguri se va scrie tot codul-->
+<head> <!-- tag-ul head vom folosii pentru a pune proprietati ale header-ului, nimic scris in acest tag nu apare in pagina html-->
+    <title> My First Web Page </title> <!-- tag-ul title va schimba titlul scris pe tab-ul pagini-->
+    <!-- tag-uri meta folosit de search engine sa citeasca detali-->
+    <meta name="description" content="Page Description Here" /><!--display in search engine-->
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/><!-- folosit pentru dimensiunea imagini pe dispozitiv (pc, laptop, mobil)-->
+
+    <!-- tag CSS -->
+    <style type="text/css"> 
+        Body {
+            color: red; 
+        }
+
+    </style>
+    <!-- tag JS function-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</head>
+
+<body> <!-- continutul pagini web, contine text, link-uri, poze, tabele liste etc, tot ce e vizibil-->
+    <p>This is a Sample HTML Document.</p>
+    This Javascript function will capitalize my name:
+    <p>Enter your name: <input type="text" id="fname" onchange="myFunction()"></p>
+
+    <p>Aceasta este linia 1.<br /> Aceasta este linia 2. &nbsp;&nbsp;&nbsp;&nbsp;Aceasta este linia 3.</p>
+
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4><font face="arial" size="22" color="blue">Header 4</font></h4>
+    <p> <strong>Text Boldat</strong> <br />
+        <em>Text inclinat italic</em><br />
+        <u>Text subliniat</u><br />
+        <strike>Text taiat</strike><br />
+        <em><strong><u>Text boldat, italic, subliniat.</u></strong></em>
+        
+    </p>
+    <!-- lista neordonata-->
+    <h3>Arte martiale preferate</h3>
+    <ul>
+        <li>Shaolin Kung fu</li>
+        <li>Taichi</li>
+        <li>BaguaZhang</li>
+        <li>Ninjutsu</li>
+    </ul>
+
+    <!-- lista ordonata-->
+    <h3>Orase Preferate</h3>
+    <ol>
+        <li>Tokyo</li>
+        <li>Kyoto</li>
+        <li>Negrea</li>
+        <li>Iasi</li>
+    </ol>
+
+    <!-- poze -->
+    <h1>Poze</h1>
+    <p>
+        <a href="https://www.google.com"><img src="FL.jpg" width="333" height="250" /></a>
+        <a href="https://www.yahoo.com"><img src="LV.jpg" width="375" height="250" /></a>
+        <a href="https://www.msn.com"><img src="NY.jpg" width="374" height="250" /></a>
+        <a href="https://www.mail.com"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Houston_night.jpg" width="389" height="250" /></a>
+
+    </p>
+
+    <h2>Video</h2>
+    <p>
+        <video src="https://www.youtube.com/watch?v=HmAjb6RazcA"></video>
+        <video width="600" controls>
+            <source src="ya.mp4" type="video/mp4" />
+            Your Browser does not support the video tag.
+        </video> <br />
+       
+    </p>
+    <p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yoZy2E17-50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <p>
+        <a href="https://www.google.com" target="_blank">
+            times<br />
+        </a>
+        <a href="https://www.yahoo.com">
+            new<br />
+        </a>
+        <a href="https://www.msn.com">roman<br /></a>
+</p>
+
+
+
+</body>
+
+</html>
