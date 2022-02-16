@@ -1,0 +1,22 @@
+  body {
+    background-color: #F7FBFC;
+  }
+
+  hr {
+    width: 5%;
+    border-style: none;
+    border-top: dotted;
+    border-color: gray;
+    border-width: 5px;
+  }
+
+  h1 {
+      color: #769FCD;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  h3{
+      color: #769FCD;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifæ;
+  }
+
